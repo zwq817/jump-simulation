@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CMC_TaskSet name="jumper">
+	<objects>
+        
+		<CMC_Joint name="pelvis_tilt"> 
+            <on> true </on> 
+            <active> true false false </active> 
+            <weight> 1.0e0 </weight> 
+            <kp> 100.0 </kp> 
+            <kv> 20.0 </kv> 
+            <coordinate> pelvis_tilt </coordinate> 
+        </CMC_Joint> 
+        <CMC_Joint name="pelvis_list"> 
+            <on> true </on> 
+            <active> true false false </active> 
+            <weight> 1.0e0 </weight> 
+            <kp> 100.0 </kp> 
+            <kv> 20.0 </kv> 
+            <coordinate> pelvis_list </coordinate> 
+        </CMC_Joint> 
+        <CMC_Joint name="pelvis_rotation"> 
+            <on> true </on> 
+            <active> true false false </active> 
+            <weight> 1.0e0 </weight> 
+            <kp> 100.0 </kp> 
+            <kv> 20.0 </kv> 
+            <coordinate> pelvis_rotation </coordinate> 
+        </CMC_Joint> 
+        <CMC_Joint name="pelvis_tx"> 
+            <on> true </on> 
+            <active> true false false </active> 
+            <weight> 1.0e0 </weight> 
+            <kp> 100.0 </kp> 
+            <kv> 20.0 </kv> 
+            <coordinate> pelvis_tx </coordinate> 
+        </CMC_Joint> 
+        <CMC_Joint name="pelvis_ty"> 
+            <on> true </on> 
+            <active> true false false </active> 
+            <weight> 1.0e0 </weight> 
+            <kp> 100.0 </kp> 
+            <kv> 20.0 </kv> 
+            <coordinate> pelvis_ty </coordinate> 
+        </CMC_Joint> 
+        <CMC_Joint name="pelvis_tz"> 
+            <on> true </on> 
+            <active> true false false </active> 
+            <weight> 1.0e0 </weight> 
+            <kp> 100.0 </kp> 
+            <kv> 20.0 </kv> 
+            <coordinate> pelvis_tz </coordinate> 
+        </CMC_Joint>
+        
+        <!-- right leg -->
+        <CMC_Joint name="hip_flexion_r"> 
+            <on> true </on> 
+            <active> true false false </active> 
+            <weight> 1.0e0 </weight> 
+            <kp> 100.0 </kp> 
+            <kv> 20.0 </kv> 
+            <coordinate> hip_flexion_r </coordinate> 
+        </CMC_Joint> 
+        <CMC_Joint name="hip_adduction_r"> 
+            <on> true </on> 
+            <active> true false false </active> 
+            <weight> 1.0e0 </weight> 
+            <kp> 100.0 </kp> 
+            <kv> 20.0 </kv> 
+            <coordinate> hip_adduction_r </coordinate> 
+        </CMC_Joint> 
+        <CMC_Joint name="hip_rotation_r"> 
+            <on> true </on> 
+            <active> true false false </active> 
+            <weight> 1.0e0 </weight> 
+            <kp> 100.0 </kp> 
+            <kv> 20.0 </kv> 
+            <coordinate> hip_rotation_r </coordinate> 
+        </CMC_Joint> 
+        <CMC_Joint name="knee_flexion_r"> 
+            <on> true </on> 
+            <active> true false false </active> 
+            <weight> 1.0e0 </weight> 
+            <kp> 100.0 </kp> 
+            <kv> 20.0 </kv> 
+            <coordinate> knee_flexion_r </coordinate> 
+        </CMC_Joint> 
+        <CMC_Joint name="ankle_flexion_r"> 
+            <on> true </on> 
+            <active> true false false </active> 
+            <weight> 1.0e0 </weight> 
+            <kp> 100.0 </kp> 
+            <kv> 20.0 </kv> 
+            <coordinate> ankle_flexion_r </coordinate> 
+        </CMC_Joint>          
+        
+        <!-- left leg -->
+        <CMC_Joint name="hip_flexion_l"> 
+            <on> true </on> 
+            <active> true false false </active> 
+            <weight> 1.0e0 </weight> 
+            <kp> 100.0 </kp> 
+            <kv> 20.0 </kv> 
+            <coordinate> hip_flexion_l </coordinate> 
+        </CMC_Joint> 
+        <CMC_Joint name="hip_adduction_l"> 
+            <on> true </on> 
+            <active> true false false </active> 
+            <weight> 1.0e0 </weight> 
+            <kp> 100.0 </kp> 
+            <kv> 20.0 </kv> 
+            <coordinate> hip_adduction_l </coordinate> 
+        </CMC_Joint> 
+        <CMC_Joint name="hip_rotation_l"> 
+            <on> true </on> 
+            <active> true false false </active> 
+            <weight> 1.0e0 </weight> 
+            <kp> 100.0 </kp> 
+            <kv> 20.0 </kv> 
+            <coordinate> hip_rotation_l </coordinate> 
+        </CMC_Joint> 
+        <CMC_Joint name="knee_flexion_l"> 
+            <on> true </on> 
+            <active> true false false </active> 
+            <weight> 1.0e0 </weight> 
+            <kp> 100.0 </kp> 
+            <kv> 20.0 </kv> 
+            <coordinate> knee_flexion_l </coordinate> 
+        </CMC_Joint> 
+        <CMC_Joint name="ankle_flexion_l"> 
+            <on> true </on> 
+            <active> true false false </active> 
+            <weight> 1.0e0 </weight> 
+            <kp> 100.0 </kp> 
+            <kv> 20.0 </kv> 
+            <coordinate> ankle_flexion_l </coordinate> 
+        </CMC_Joint> 
+
+        <!-- trunk -->
+        <CMC_Joint name="lumbar_extension"> 
+            <on> true </on> 
+            <active> true false false </active> 
+            <weight> 1.0e0 </weight> 
+            <kp> 100.0 </kp> 
+            <kv> 20.0 </kv> 
+            <coordinate> lumbar_extension </coordinate> 
+        </CMC_Joint> 
+        <CMC_Joint name="lumbar_bending"> 
+            <on> true </on> 
+            <active> true false false </active> 
+            <weight> 1.0e0 </weight> 
+            <kp> 100.0 </kp> 
+            <kv> 20.0 </kv> 
+            <coordinate> lumbar_bending </coordinate> 
+        </CMC_Joint> 
+        <CMC_Joint name="lumbar_rotation"> 
+            <on> true </on> 
+            <active> true false false </active> 
+            <weight> 1.0e0 </weight> 
+            <kp> 100.0 </kp> 
+            <kv> 20.0 </kv> 
+            <coordinate> lumbar_rotation </coordinate> 
+        </CMC_Joint> 
+    
+    </objects>
+	<defaults/>
+</CMC_TaskSet>

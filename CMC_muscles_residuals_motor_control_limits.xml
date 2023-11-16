@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ControlSet name="leg69_muscles_residuals_motor_control_limits">
+	<defaults>
+		<ControlLinear name="default">
+			<default_min> -10000000.0 </default_min>
+			<default_max> 10000000.0 </default_max>
+			<use_steps> true </use_steps>
+		</ControlLinear>
+	</defaults>
+	<objects>
+		<ControlLinear name="MX.excitation"/>
+        <ControlLinear name="MY.excitation"/>
+        <ControlLinear name="MZ.excitation"/>
+		<ControlLinear name="FX.excitation"/>
+		<ControlLinear name="FY.excitation"/>
+        <ControlLinear name="FZ.excitation"/>
+
+		<!-- Right Leg -->
+		<ControlLinear name="hip_flexion_r_reserve.excitation" />
+		<ControlLinear name="hip_adduction_r_reserve.excitation" />
+		<ControlLinear name="hip_rotation_r_reserve.excitation" />
+        <ControlLinear name="knee_flexion_r_reserve.excitation" />
+        <ControlLinear name="ankle_flexion_r_reserve.excitation" />
+        <ControlLinear name="subtalar_angle_r_reserve.excitation" />
+        <ControlLinear name="mtp_angle_r_reserve.excitation" />
+        
+        <!-- Left Leg -->
+        <ControlLinear name="hip_flexion_l_reserve.excitation" />
+		<ControlLinear name="hip_adduction_l_reserve.excitation" />
+		<ControlLinear name="hip_rotation_l_reserve.excitation" />
+        <ControlLinear name="knee_flexion_l_reserve.excitation" />
+        <ControlLinear name="ankle_flexion_l_reserve.excitation" />
+        <ControlLinear name="subtalar_angle_l_reserve.excitation" />
+        <ControlLinear name="mtp_angle_l_reserve.excitation" />
+        
+        <!-- Trunk -->
+        <ControlLinear name="lumbar_extension_reserve.excitation" />
+        <ControlLinear name="lumbar_bending_reserve.excitation" />
+        <ControlLinear name="lumbar_rotation_reserve.excitation" />
+        		
+		<ControlLinear name="hamstrings_r.excitation">
+			<default_min>       0.02000000 </default_min>
+			<default_max>       1.00000000 </default_max>
+			<use_steps> true </use_steps>
+		</ControlLinear>
+
+        <ControlLinear name="bifemsh_r.excitation">
+			<default_min>       0.02000000 </default_min>
+			<default_max>       1.00000000 </default_max>
+			<use_steps> true </use_steps>
+		</ControlLinear>
+
+        <ControlLinear name="glut_max_r.excitation">
+			<default_min>       0.02000000 </default_min>
+			<default_max>       1.00000000 </default_max>
+			<use_steps> true </use_steps>
+		</ControlLinear>
+
+        <ControlLinear name="iliopsoas_r.excitation">
+			<default_min>       0.02000000 </default_min>
+			<default_max>       1.00000000 </default_max>
+			<use_steps> true </use_steps>
+		</ControlLinear>
+
+        <ControlLinear name="rect_fem_r.excitation">
+			<default_min>       0.02000000 </default_min>
+			<default_max>       1.00000000 </default_max>
+			<use_steps> true </use_steps>
+		</ControlLinear>
+
+        <ControlLinear name="vasti_r.excitation">
+			<default_min>       0.02000000 </default_min>
+			<default_max>       1.00000000 </default_max>
+			<use_steps> true </use_steps>
+		</ControlLinear>
+
+        <ControlLinear name="gastroc_r.excitation">
+			<default_min>       0.02000000 </default_min>
+			<default_max>       1.00000000 </default_max>
+			<use_steps> true </use_steps>
+		</ControlLinear>
+
+        <ControlLinear name="soleus_r.excitation">
+			<default_min>       0.02000000 </default_min>
+			<default_max>       1.00000000 </default_max>
+			<use_steps> true </use_steps>
+		</ControlLinear>
+
+        <ControlLinear name="tib_ant_r.excitation">
+			<default_min>       0.02000000 </default_min>
+			<default_max>       1.00000000 </default_max>
+			<use_steps> true </use_steps>
+		</ControlLinear>
+
+        <ControlLinear name="hamstrings_l.excitation">
+			<default_min>       0.02000000 </default_min>
+			<default_max>       1.00000000 </default_max>
+			<use_steps> true </use_steps>
+		</ControlLinear>
+
+        <ControlLinear name="bifemsh_l.excitation">
+			<default_min>       0.02000000 </default_min>
+			<default_max>       1.00000000 </default_max>
+			<use_steps> true </use_steps>
+		</ControlLinear>
+
+        <ControlLinear name="glut_max_l.excitation">
+			<default_min>       0.02000000 </default_min>
+			<default_max>       1.00000000 </default_max>
+			<use_steps> true </use_steps>
+		</ControlLinear>
+
+        <ControlLinear name="iliopsoas_l.excitation">
+			<default_min>       0.02000000 </default_min>
+			<default_max>       1.00000000 </default_max>
+			<use_steps> true </use_steps>
+		</ControlLinear>
+
+        <ControlLinear name="rect_fem_l.excitation">
+			<default_min>       0.02000000 </default_min>
+			<default_max>       1.00000000 </default_max>
+			<use_steps> true </use_steps>
+		</ControlLinear>
+
+        <ControlLinear name="vasti_l.excitation">
+			<default_min>       0.02000000 </default_min>
+			<default_max>       1.00000000 </default_max>
+			<use_steps> true </use_steps>
+		</ControlLinear>
+
+        <ControlLinear name="gastroc_l.excitation">
+			<default_min>       0.02000000 </default_min>
+			<default_max>       1.00000000 </default_max>
+			<use_steps> true </use_steps>
+		</ControlLinear>
+
+        <ControlLinear name="soleus_l.excitation">
+			<default_min>       0.02000000 </default_min>
+			<default_max>       1.00000000 </default_max>
+			<use_steps> true </use_steps>
+		</ControlLinear>
+
+        <ControlLinear name="tib_ant_l.excitation">
+			<default_min>       0.02000000 </default_min>
+			<default_max>       1.00000000 </default_max>
+			<use_steps> true </use_steps>
+		</ControlLinear>
+		
+	</objects>
+</ControlSet>
