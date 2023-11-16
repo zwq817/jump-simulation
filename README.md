@@ -1,6 +1,8 @@
 # jump-simulation
-## Folder: Results of CMC/FWD
-## Setup_XX: Setup files of CMC/FWD/IK
+## Folder
+Results of CMC/FWD
+## Setup_XX
+Setup files of CMC/FWD/IK
 ## IK
 * test_data_markers: Experimental marker data
 * Result_IK: Desired motion calculated by IK
